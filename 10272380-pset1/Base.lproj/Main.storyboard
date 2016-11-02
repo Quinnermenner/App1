@@ -20,42 +20,54 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSm-Qz-rRu" userLabel="Header">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mr. Potato Head" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uS-hu-GN2">
+                                        <rect key="frame" x="62" y="8" width="251" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="31"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.66033162902967768" blue="0.057461852301249006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ct2-Nx-qva"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="u0w-a2-1h7">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="body" translatesAutoresizingMaskIntoConstraints="NO" id="M8F-E4-vl0">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="349.5"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4h4-Sw-d05">
+                                        <rect key="frame" x="0.0" y="349.5" width="375" height="257.5"/>
+                                        <color key="backgroundColor" red="1" green="0.88155421013420554" blue="0.50742330414383319" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DSm-Qz-rRu" secondAttribute="trailing" id="4lN-Tj-pGt"/>
+                            <constraint firstItem="u0w-a2-1h7" firstAttribute="top" secondItem="DSm-Qz-rRu" secondAttribute="bottom" id="Be2-rU-GYx"/>
+                            <constraint firstAttribute="trailing" secondItem="u0w-a2-1h7" secondAttribute="trailing" id="DPJ-Xz-SnL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u0w-a2-1h7" secondAttribute="bottom" id="SQq-Xz-1iK"/>
+                            <constraint firstAttribute="trailing" secondItem="DSm-Qz-rRu" secondAttribute="trailing" id="SfT-rB-X3e"/>
+                            <constraint firstItem="u0w-a2-1h7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="arM-ZM-wS4"/>
+                            <constraint firstAttribute="trailing" secondItem="DSm-Qz-rRu" secondAttribute="trailing" id="bQh-vu-VJn"/>
+                            <constraint firstItem="DSm-Qz-rRu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bbl-sA-GVy"/>
+                            <constraint firstAttribute="trailing" secondItem="DSm-Qz-rRu" secondAttribute="trailing" id="xBs-Mv-CTD"/>
+                            <constraint firstItem="DSm-Qz-rRu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xld-6t-jhy"/>
+                            <constraint firstItem="DSm-Qz-rRu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ydn-c4-dCg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" id="gTq-Ka-yGb">
-                    <rect key="frame" x="0.0" y="0.0" width="409" height="925"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSm-Qz-rRu" userLabel="Header">
-                            <rect key="frame" x="0.0" y="0.0" width="409" height="71"/>
-                            <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mr. Potato Head" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uS-hu-GN2">
-                                    <rect key="frame" x="108" y="10" width="192" height="50"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="31"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                            </subviews>
-                            <color key="backgroundColor" red="1" green="0.66033162902967768" blue="0.057461852301249006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </view>
-                        <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillProportionally" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="bc8-Sn-kPr">
-                            <rect key="frame" x="0.0" y="71" width="409" height="854"/>
-                            <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="body" translatesAutoresizingMaskIntoConstraints="NO" id="VOm-py-Rg8">
-                                    <rect key="frame" x="0.0" y="0.0" width="409" height="428"/>
-                                </imageView>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VBk-aj-tev">
-                                    <rect key="frame" x="0.0" y="429" width="409" height="425"/>
-                                    <color key="backgroundColor" red="1" green="0.92367252528259436" blue="0.63939459740659543" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </view>
-                            </subviews>
-                            <variation key="heightClass=compact" axis="horizontal"/>
-                        </stackView>
-                    </subviews>
-                </stackView>
             </objects>
             <point key="canvasLocation" x="-173.59999999999999" y="149.77511244377811"/>
         </scene>
