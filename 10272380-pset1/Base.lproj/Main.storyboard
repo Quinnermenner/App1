@@ -161,6 +161,9 @@
                                                                                 <subviews>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Cl-8s-7G5">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="ToggleArms:" destination="BYZ-38-t0r" eventType="valueChanged" id="YHh-X8-vve"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EGK-6B-zQV">
                                                                                         <rect key="frame" x="94" y="0.0" width="93.5" height="31"/>
@@ -316,6 +319,18 @@
                             <constraint firstItem="Jmc-QW-c29" firstAttribute="top" secondItem="Goy-NN-buU" secondAttribute="top" id="Wjq-0p-NHi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="arms" destination="ifj-iG-x4N" id="VMo-QL-Kn6"/>
+                        <outlet property="ears" destination="pCI-3K-8dJ" id="Vej-iN-rdr"/>
+                        <outlet property="eyebrows" destination="lTX-q8-Mey" id="AqQ-yZ-UQs"/>
+                        <outlet property="eyes" destination="0oW-dj-bdC" id="3Lf-LF-Ogk"/>
+                        <outlet property="glasses" destination="Sr2-sx-XDH" id="WTv-XH-j1e"/>
+                        <outlet property="hat" destination="e5c-4P-cNg" id="TwG-Tp-gQ3"/>
+                        <outlet property="mouth" destination="6Cl-PA-vOV" id="sDf-BD-lGQ"/>
+                        <outlet property="mustache" destination="sto-rQ-G9g" id="df7-n7-HVY"/>
+                        <outlet property="nose" destination="1GO-Au-j55" id="eBL-g3-Z0r"/>
+                        <outlet property="shoes" destination="ZVE-Hw-qAp" id="NDm-Ps-HfJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
