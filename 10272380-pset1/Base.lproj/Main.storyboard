@@ -162,7 +162,7 @@
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Cl-8s-7G5">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="96" height="31"/>
                                                                                         <connections>
-                                                                                            <action selector="ToggleArms:" destination="BYZ-38-t0r" eventType="valueChanged" id="YHh-X8-vve"/>
+                                                                                            <action selector="toggleArms:" destination="BYZ-38-t0r" eventType="valueChanged" id="FlV-pY-7cY"/>
                                                                                         </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EGK-6B-zQV">
@@ -173,6 +173,9 @@
                                                                                     </label>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lm3-ab-3Pn">
                                                                                         <rect key="frame" x="187.5" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="toggleMouth:" destination="BYZ-38-t0r" eventType="valueChanged" id="c7a-yM-Ehc"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mouth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="N4F-5C-PKE">
                                                                                         <rect key="frame" x="281.5" y="0.0" width="93.5" height="31"/>
@@ -187,6 +190,9 @@
                                                                                 <subviews>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nrh-qC-LtD">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="toggleEars:" destination="BYZ-38-t0r" eventType="valueChanged" id="TsE-Ih-IzA"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AOV-u2-LqV">
                                                                                         <rect key="frame" x="94" y="0.0" width="93.5" height="31"/>
@@ -196,6 +202,9 @@
                                                                                     </label>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V1p-uZ-WES">
                                                                                         <rect key="frame" x="187.5" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="toggleMustache:" destination="BYZ-38-t0r" eventType="valueChanged" id="QpT-s3-BKi"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mustache" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZOQ-aS-gAd">
                                                                                         <rect key="frame" x="281.5" y="0.0" width="93.5" height="31"/>
@@ -210,6 +219,9 @@
                                                                                 <subviews>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JjO-nt-YZw">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="toggleEyebrows:" destination="BYZ-38-t0r" eventType="valueChanged" id="tiw-AU-HBB"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eyebrows" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Wt6-FG-Bkq">
                                                                                         <rect key="frame" x="94" y="0.0" width="93.5" height="31"/>
@@ -219,6 +231,9 @@
                                                                                     </label>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AR3-Hg-UMR">
                                                                                         <rect key="frame" x="187.5" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="toggleNose:" destination="BYZ-38-t0r" eventType="valueChanged" id="TEg-IN-qqY"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tew-ob-SFz">
                                                                                         <rect key="frame" x="281.5" y="0.0" width="93.5" height="31"/>
@@ -233,6 +248,9 @@
                                                                                 <subviews>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyq-zB-8RX">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="toggleEyes:" destination="BYZ-38-t0r" eventType="valueChanged" id="CWW-F6-rQb"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eyes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="F0f-kX-yLP">
                                                                                         <rect key="frame" x="94" y="0.0" width="93.5" height="31"/>
@@ -242,6 +260,9 @@
                                                                                     </label>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gjL-WE-aNH">
                                                                                         <rect key="frame" x="187.5" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="toggleShoes:" destination="BYZ-38-t0r" eventType="valueChanged" id="cSF-aD-pzB"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BsG-OA-K9J">
                                                                                         <rect key="frame" x="281.5" y="0.0" width="93.5" height="31"/>
@@ -256,6 +277,9 @@
                                                                                 <subviews>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tAc-Nh-xuu">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="toggleGlasses:" destination="BYZ-38-t0r" eventType="valueChanged" id="DxE-5n-cnB"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Glasses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aa0-yf-OXK">
                                                                                         <rect key="frame" x="94" y="0.0" width="93.5" height="31"/>
@@ -265,6 +289,9 @@
                                                                                     </label>
                                                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUe-ma-fSu">
                                                                                         <rect key="frame" x="187.5" y="0.0" width="96" height="31"/>
+                                                                                        <connections>
+                                                                                            <action selector="toggleHat:" destination="BYZ-38-t0r" eventType="valueChanged" id="UYj-zn-w0Y"/>
+                                                                                        </connections>
                                                                                     </switch>
                                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nQl-ug-GVw">
                                                                                         <rect key="frame" x="281.5" y="0.0" width="93.5" height="31"/>
