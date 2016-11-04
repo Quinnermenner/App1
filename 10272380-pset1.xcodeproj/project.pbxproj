@@ -12,6 +12,7 @@
 		39A24BE91DC8D0B400CA856B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A24BE71DC8D0B400CA856B /* Main.storyboard */; };
 		39A24BEB1DC8D0B400CA856B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A24BEA1DC8D0B400CA856B /* Assets.xcassets */; };
 		39A24BEE1DC8D0B400CA856B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A24BEC1DC8D0B400CA856B /* LaunchScreen.storyboard */; };
+		39CFAAC81DCC93C8002BE78B /* UIViewBordersExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CFAAC71DCC93C8002BE78B /* UIViewBordersExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		39A24BEA1DC8D0B400CA856B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A24BED1DC8D0B400CA856B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39A24BEF1DC8D0B400CA856B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CFAAC71DCC93C8002BE78B /* UIViewBordersExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBordersExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				39A24BE31DC8D0B400CA856B /* AppDelegate.swift */,
 				39A24BE51DC8D0B400CA856B /* ViewController.swift */,
+				39CFAAC71DCC93C8002BE78B /* UIViewBordersExtension.swift */,
 				39A24BE71DC8D0B400CA856B /* Main.storyboard */,
 				39A24BEA1DC8D0B400CA856B /* Assets.xcassets */,
 				39A24BEC1DC8D0B400CA856B /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				39A24BE61DC8D0B400CA856B /* ViewController.swift in Sources */,
 				39A24BE41DC8D0B400CA856B /* AppDelegate.swift in Sources */,
+				39CFAAC81DCC93C8002BE78B /* UIViewBordersExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

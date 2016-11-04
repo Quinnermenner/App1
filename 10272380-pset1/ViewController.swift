@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var eyebrows: UIImageView!
     @IBOutlet weak var glasses: UIImageView!
     
-
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
